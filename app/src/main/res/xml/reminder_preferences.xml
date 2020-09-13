@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <SwitchPreferenceCompat
+        android:icon="@drawable/ic_notifications_black_24dp"
+        android:key="@string/reminder_pref"
+        android:summary="Daily Reminder off"
+        android:summaryOn="Turn On Daily at 9AM"
+        android:title="Daily Reminder"/>
+    <Preference
+        android:key="@string/language_pref"
+        android:title="@string/language"
+        android:icon="@drawable/ic_baseline_language_24"
+        android:summary="Change Language">
+    </Preference>
+</PreferenceScreen>
